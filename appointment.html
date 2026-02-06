@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Appointment - Clinic Bootstrap Template</title>
+  <title>Appointment - Mia's Hospital</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -44,8 +44,8 @@
     <div class="topbar d-flex align-items-center dark-background">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@miasHospital.com">info@miasHospital.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+62 812-3456-7890</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
@@ -62,7 +62,7 @@
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="assets/img/logo.webp" alt=""> -->
-          <h1 class="sitename">Clinic</h1>
+          <h1 class="sitename">Mia's Hospital</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -123,10 +123,7 @@
             <div class="col-lg-8">
               <h1 class="heading-title">Appointment</h1>
               <p class="mb-0">
-                Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo
-                odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum
-                debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat
-                ipsum dolorem.
+                Reservasi dokter cepat, praktis, dan tanpa antre melalui sistem booking online.
               </p>
             </div>
           </div>
@@ -151,8 +148,8 @@
           <div class="col-lg-8 mx-auto">
             <div class="booking-wrapper">
               <div class="booking-header text-center" data-aos="fade-up" data-aos-delay="200">
-                <h2>Schedule Your Appointment</h2>
-                <p>Book your medical appointment in just a few simple steps. Our experienced healthcare professionals are ready to provide you with the best care possible.</p>
+                <h2>Jadwalkan Appointment</h2>
+                <p>Booking hanya beberapa langkah. Tim dokter muda kami siap memberikan layanan terbaik untuk Anda.</p>
               </div>
 
               <div class="booking-steps" data-aos="fade-up" data-aos-delay="300">
@@ -161,8 +158,8 @@
                     <i class="bi bi-calendar-check"></i>
                   </div>
                   <div class="step-content">
-                    <h4>Select Service</h4>
-                    <p>Choose the medical service you need</p>
+                    <h4>Pilih Layanan</h4>
+                    <p>Tentukan layanan yang Anda butuhkan</p>
                   </div>
                 </div>
                 <div class="step">
@@ -170,8 +167,8 @@
                     <i class="bi bi-clock"></i>
                   </div>
                   <div class="step-content">
-                    <h4>Pick Date &amp; Time</h4>
-                    <p>Select your preferred appointment slot</p>
+                    <h4>Pilih Tanggal &amp; Waktu</h4>
+                    <p>Sesuaikan jadwal appointment Anda</p>
                   </div>
                 </div>
                 <div class="step">
@@ -179,8 +176,8 @@
                     <i class="bi bi-person-check"></i>
                   </div>
                   <div class="step-content">
-                    <h4>Confirm Details</h4>
-                    <p>Provide your information and confirm</p>
+                    <h4>Konfirmasi Data</h4>
+                    <p>Lengkapi data dan konfirmasi</p>
                   </div>
                 </div>
               </div>
@@ -189,24 +186,24 @@
                 <form action="forms/book-appointment.php" method="post" class="php-email-form">
                   <div class="row gy-4">
                     <div class="col-md-6">
-                      <input type="text" name="name" class="form-control" placeholder="Full Name" required="">
+                      <input type="text" name="name" class="form-control" placeholder="Nama Lengkap" required="">
                     </div>
                     <div class="col-md-6">
-                      <input type="email" name="email" class="form-control" placeholder="Email Address" required="">
+                      <input type="email" name="email" class="form-control" placeholder="Email" required="">
                     </div>
                     <div class="col-md-6">
-                      <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required="">
+                      <input type="tel" name="phone" class="form-control" placeholder="Nomor Telepon" required="">
                     </div>
                     <div class="col-md-6">
                       <select name="department" class="form-select" required="">
-                        <option value="">Select Department</option>
-                        <option value="general">General Consultation</option>
-                        <option value="cardiology">Cardiology</option>
-                        <option value="neurology">Neurology</option>
-                        <option value="orthopedics">Orthopedics</option>
-                        <option value="pediatrics">Pediatrics</option>
-                        <option value="dermatology">Dermatology</option>
-                        <option value="oncology">Oncology</option>
+                        <option value="">Pilih Departemen</option>
+                        <option value="general">Konsultasi Umum</option>
+                        <option value="cardiology">Kardiologi</option>
+                        <option value="neurology">Neurologi</option>
+                        <option value="orthopedics">Ortopedi</option>
+                        <option value="pediatrics">Pediatri</option>
+                        <option value="dermatology">Dermatologi</option>
+                        <option value="oncology">Onkologi</option>
                       </select>
                     </div>
                     <div class="col-md-6">
@@ -214,31 +211,30 @@
                     </div>
                     <div class="col-md-6">
                       <select name="doctor" class="form-select" required="">
-                        <option value="">Select Doctor</option>
-                        <option value="dr-sarah-johnson">Dr. Sarah Johnson</option>
-                        <option value="dr-michael-chen">Dr. Michael Chen</option>
-                        <option value="dr-emily-davis">Dr. Emily Davis</option>
-                        <option value="dr-robert-smith">Dr. Robert Smith</option>
-                        <option value="dr-lisa-brown">Dr. Lisa Brown</option>
-                        <option value="dr-david-wilson">Dr. David Wilson</option>
-                        <option value="dr-maria-rodriguez">Dr. Maria Rodriguez</option>
+                        <option value="">Pilih Dokter</option>
+                        <option value="dr-alya-pranoto">Dr. Alya Pranoto</option>
+                        <option value="dr-rafi-aditya">Dr. Rafi Aditya</option>
+                        <option value="dr-nisa-rahmah">Dr. Nisa Rahmah</option>
+                        <option value="dr-kevin-mahendra">Dr. Kevin Mahendra</option>
+                        <option value="dr-sinta-wulandari">Dr. Sinta Wulandari</option>
+                        <option value="dr-dimas-pratama">Dr. Dimas Pratama</option>
                       </select>
                     </div>
                     <div class="col-12">
-                      <textarea name="message" class="form-control" rows="4" placeholder="Additional notes or symptoms (optional)"></textarea>
+                      <textarea name="message" class="form-control" rows="4" placeholder="Catatan tambahan atau keluhan (opsional)"></textarea>
                     </div>
                     <div class="col-12">
-                      <div class="loading">Loading</div>
+                      <div class="loading">Mengirim...</div>
                       <div class="error-message"></div>
-                      <div class="sent-message">Your appointment has been scheduled. Thank you!</div>
-                      <button type="submit" class="btn-book">Book Appointment Now</button>
+                      <div class="sent-message">Janji temu Anda berhasil dibuat. Terima kasih!</div>
+                      <button type="submit" class="btn-book">Booking Sekarang</button>
                     </div>
                   </div>
                 </form>
               </div>
 
               <div class="emergency-info" data-aos="fade-up" data-aos-delay="500">
-                <p><i class="bi bi-exclamation-triangle"></i> For medical emergencies, please call <strong>911</strong> or go to the nearest emergency room.</p>
+                <p><i class="bi bi-exclamation-triangle"></i> Untuk keadaan darurat, hubungi <strong>+62 812-3456-7890</strong> atau kunjungi IGD terdekat.</p>
               </div>
 
             </div>
@@ -261,22 +257,22 @@
           <div class="col-lg-5">
             <div class="brand-section">
               <a href="index.html" class="logo d-flex align-items-center mb-4">
-                <span class="sitename">Clinic</span>
+                <span class="sitename">Mia's Hospital</span>
               </a>
-              <p class="brand-description">Crafting exceptional digital experiences through thoughtful design and innovative solutions that elevate your brand presence.</p>
+              <p class="brand-description">Providing comprehensive family healthcare with warmth and care in a comfortable, modern environment.</p>
 
               <div class="contact-info mt-5">
                 <div class="contact-item">
                   <i class="bi bi-geo-alt"></i>
-                  <span>123 Creative Boulevard, Design District, NY 10012</span>
+                  <span>Jl. Ahmad Yani No. 456, Bandar Lampung, Lampung, Indonesia</span>
                 </div>
                 <div class="contact-item">
                   <i class="bi bi-telephone"></i>
-                  <span>+1 (555) 987-6543</span>
+                  <span>+62 812-3456-7890</span>
                 </div>
                 <div class="contact-item">
                   <i class="bi bi-envelope"></i>
-                  <span>hello@designstudio.com</span>
+                  <span>info@miasHospital.com</span>
                 </div>
               </div>
             </div>
@@ -354,7 +350,7 @@
 
             <div class="col-lg-6">
               <div class="copyright">
-                <p>© <span class="sitename">Clinic</span>. All rights reserved.</p>
+                <p>© <span class="sitename">Mia's Hospital</span>. All rights reserved.</p>
               </div>
             </div>
 
